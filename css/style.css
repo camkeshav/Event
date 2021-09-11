@@ -563,7 +563,7 @@ a:focus {
     color: #E81C2E;
 }*/
 
-.page-header a::after {
+.page-header a::after p{
     position: absolute;
     content: "/";
     width: 8px;
@@ -572,6 +572,16 @@ a:focus {
     right: -7px;
     text-align: center;
     color: #ffffff;
+}
+
+ul{
+    padding: 0;
+}
+
+.page-header p{
+    color: #fff;
+    font-size: 2em;
+    align-items: center;
 }
 
 .page-header a:last-child::after {
