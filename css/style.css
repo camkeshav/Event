@@ -312,9 +312,9 @@ a:focus {
         box-shadow: none;
     }
     
-    .nav-bar .btn {
+    /*.nav-bar .btn {
         display: none;
-    }
+    }*/
 }
 
 
@@ -525,7 +525,7 @@ a:focus {
 /*******************************/
 .page-header {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 0px;
     padding: 90px 0;
     text-align: center;
     background: #022f84;
@@ -1988,7 +1988,7 @@ img.discord{
 
 .footer-logo{
     height: 8rem;
-    width: 15rem;
+    width: 17rem;
 }
 
 h2{
