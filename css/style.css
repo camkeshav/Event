@@ -285,13 +285,13 @@ a:focus {
 .nav-bar .btn.btn-custom {
     color: #202C45;
     background: #ffffff;
-    box-shadow: inset 0 0 0 0 #E81C2E;
+    box-shadow: inset 0 0 0 0 linear-gradient(60deg, #F5D040, #F69252, #EE4B76, #832A8F, #0A146E);
 }
 
 .nav-bar .btn:hover {
     color: #ffffff;
-    background: #E81C2E;
-    box-shadow: inset 200px 0 0 0 #E81C2E;
+    background-image: linear-gradient(60deg, #F5D040, #F69252, #EE4B76, #832A8F, #0A146E);
+    box-shadow: inset 200px 0 0 0 linear-gradient(60deg, #F5D040, #F69252, #EE4B76, #832A8F, #0A146E);
 }
 
 @media (min-width: 992px) {
