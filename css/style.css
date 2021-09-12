@@ -600,11 +600,14 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: #ffffff;
+    color: #F6D155;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
     padding-bottom: 5px;
+    
+    border-radius: 20px;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .page-header h2::after {
