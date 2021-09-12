@@ -611,13 +611,13 @@ a:focus {
 }
 
 .page-header h2::after {
-    position: absolute;
+    /*position: absolute;
     content: "";
     width: 100px;
     height: 2px;
     left: calc(50% - 50px);
     bottom: 0;
-    background: #ffffff;
+    background: #ffffff;*/
 }
 
 .page-header a {
